@@ -1,0 +1,88 @@
+/*Fonts*/
+
+/* font-family: 'Cardo', serif;
+font-family: 'Lora', serif; */
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+.viewport-header {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body{
+    font-family: 'Lora', serif;
+  }
+
+  h1 {
+    font-family: 'Cardo', serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    line-height: 1.2;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  #sub-head {
+    font-family: 'Lora', serif;
+    display: block;
+    font-size: 30px !important;
+    
+  }
+
+  .text-block {
+    position: relative;
+    padding: 3rem;
+    color:white;
+    max-width: 90%;
+    border-radius: 15px;
+  }
+
+  h2{
+    position: relative;
+    margin: 1rem auto;
+    color: white;
+    font-family: 'Cardo', serif
+  }
+
+  p{
+        /* max-width: 70%; */
+        margin: 1rem auto;
+        color: white;
+  }
+
+ .stack-logo{
+    width: 150px;
+    height: 150px;
+    border-radius:15px;
+ }
+
+ .visit{
+    background-color: rgb(180, 43, 226);
+ }
+
+ .connect-logo{
+    width: 60px;
+    height: 50px;
+    border-radius:15px;
+ }
+
+#connections{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #442063;
+}
