@@ -73,11 +73,24 @@ video {
     background-color: rgb(180, 43, 226);
  }
 
- .connect-logo{
-    width: 60px;
-    height: 50px;
-    border-radius:15px;
+ .visit:hover{
+  color: rgb(180, 43, 226) ;
+  background-color: white;
+  border: 2px solid rgb(180, 43, 226);
+  font-size:1rem;
  }
+
+ .connect-logo{
+    width: 50px;
+    height: 40px;
+    border-radius:10px;
+ }
+
+.purple a:hover{
+color:#442063;
+background-color: white;
+border-radius: 15px;
+}
 
 #connections{
   position: -webkit-sticky; /* Safari */
@@ -85,4 +98,26 @@ video {
   top: 0;
   z-index: 1;
   background-color: #442063;
+}
+
+.navtext{
+  font-size: 1.25rem;
+}
+
+
+
+.purple{
+  background-color: #6d359e;
+  color: white;
+}
+
+.navbar-sticky{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.footer{
+  z-index: 1;
 }
