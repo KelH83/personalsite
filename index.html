@@ -21,26 +21,60 @@
       <header class="viewport-header">
         <h1>
           Kelly Howes<br>
-          <span id="sub-head">Software Developer || Disability Advocate</span>
+          <span id="sub-head">Software Developer || Career switcher <br>Disability Advocate</span>
         </h1>
       </header>
 
-      <!-- contact info-->
-       <div class="row text-center mt-5 mb-3" id="connections">        
-            <div class="col-4 mx-auto"><a href="https://www.linkedin.com/in/kellyh83/" target="blank"><img class="img-fluid connect-logo p-1 m-2" src="./images/linkedLOGO.png" alt="linked in logo"/></a></div>
-            <div class="col-4 mx-auto"><a href="https://github.com/KelH83" target="blank"><img class="img-fluid connect-logo p-1 m-2" src="./images/githubLOGO.png" alt="github logo"/></a></div>
-            <div class="col-4 mx-auto"><a href="mailto:kellyhowes83@gmail.com"><img class="img-fluid connect-logo p-1 m-2" src="./images/emailLOGO.png" alt="email symbol"/></a></div>
-        </div>
-        <!-- -->
+          <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-sticky purple">
+          <div class="container-fluid purple">
+            <a class="navbar-brand" href="#"><img class="img-fluid connect-logo" src="./images/myphoto.jpg" alt="photo of me"/></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle purple" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Let's Connect
+                  </a>
+                  <ul class="dropdown-menu purple mx-auto">
+                    <li><a class="dropdown-item purple" href="https://www.linkedin.com/in/kellyh83/" target="blank"><img class="img-fluid connect-logo" src="./images/linkedLOGO.png" alt="linked in logo"/> Linked in</a></li>
+                    <li><a class="dropdown-item purple" href="https://github.com/KelH83" target="blank"><img class="img-fluid connect-logo" src="./images/githubLOGO.png" alt="github logo"/> Github</a></li>
+                    <li><a class="dropdown-item purple" href="mailto:kellyhowes83@gmail.com"><img class="img-fluid connect-logo" src="./images/emailLOGO.png" alt="email symbol"/> Email</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link purple m" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link purple" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link purple" href="#stack">Stack</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link purple" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link purple" href="#projects">Projects</a>
+                </li>                
+              </ul>
+            </div>
+            <div class="container">
+              <a class="weatherwidget-io" href="https://forecast7.com/en/52d210d12/cambridge/" data-label_1="CAMBRIDGE" data-label_2="WEATHER" data-days="3" data-theme="blank" >CAMBRIDGE WEATHER</a>
+              </div>
+          </div>          
+        </nav>
 
       <!--About-->
       <div class="text-block bg-dark bg-opacity-75 mx-auto">
         
         <h2 class="display-3 text-center">About Me</h2>
-        <p class="fs-4">I am currently re-training as a software developer with a keen interest in full-stack development. I have trained to a good standard in 
-            basic web development - HTML, CSS, Javascript as well as touched on bootstrap and Python. I am working my way through the full-stack 
-            pathway on Codecademy as well as undertaking multiple coding courses with Code First Girls and Udemy. 
-        </p>
+        <p class="fs-4">I have a strong ambition to make the switch to tech and as well as having a proactive approach to acquiring new skills and knowledge I am motivated by a passion for innovation and problem-solving. I have a curious mindset, a willingness to learn, adaptability, and the ability to embrace challenges as opportunities for growth. So far I have learned HTML, CSS, Javascript, Bootstrap, GIT and Github. I have touched upon JQuery, Python, SQL, Node and React. I am continuously improving and adding to my skill base via online courses and coding challenges.
+          <br><br>I have been very fortunate to place in the final 3 in some of the code first girls challenges both of these utilising some of my strengths, namely creativity, thinking outside of the box and my ability to hyperfocus for extended periods.
+          <br><br>My previous roles gave me valuable creative experience that has enabled me to create visually appealing projects. My time-management skills and previous leadership roles have enabled me to keep my team(s) on track during challenges and classes. I’m very much a helper and researcher, whenever someone asks a question I will come up with a detailed data-driven answer whether that’s as in the past “What new class would be the most profitable for the school” to more recently “Why is mediation for Education Health and Care Plans virtually impossible to access?”.</p>
+       
         <hr>
         <p class="fs-4">I'm a disability advocate, I myself am disabled (neurodiverse) and so is my daughter and many family members. Creating a better world for 
             the next generation of neurodiverse people is something I feel strongly about. I volunteer for a local charity, helping parents navigate 
@@ -62,36 +96,56 @@
       </div>
 
       <!--Stack-->
-      <div class="text-block mx-auto">
+      <div class="text-block mx-auto mt-5" id="stack">
         <h2 class="display-3 text-center">My Stack</h2>
         <div class="row text-center mt-2">        
-            <div class="col-sm-12 col-md-4"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/htmlLOGO.png" alt="html logo"/></div>
-            <div class="col-sm-12 col-md-4"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/cssLOGO.png" alt="css logo"/></div>
-            <div class="col-sm-12 col-md-4"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/javLOGO.png" alt="javascript logo"/></div>
+            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/htmlLOGO.png" alt="html logo"/></div>
+            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/cssLOGO.png" alt="css logo"/></div>
+            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/javLOGO.png" alt="javascript logo"/></div>
+            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/bootStrap.png" alt="bootstrap logo"/></div>
         </div>
         <div class="row text-center mt-2">
-            <div class="col-sm-12 col-md-4"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/bootLOGO.png" alt="bootstrap logo"/></div>
-            <div class="col-sm-12 col-md-4"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/pythonLOGO.png" alt="python logo"/></div>
-            <div class="col-sm-12 col-md-4"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/githubLOGO.png" alt="github logo"/></div>
+            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/PostgresqlLOGO.png" alt="postgreSQL logo"/></div>
+            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/gitLOGO.png" alt="git logo"/></div>
+            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/githubLOGO.png" alt="github logo"/></div>
+            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/vsLOGO.png" alt="visual studio logo"/></div>
         </div>
       </div>
 
       <!--Education-->
-      <div class="text-block bg-dark bg-opacity-75 mx-auto">
+      <div class="text-block bg-dark bg-opacity-75 mx-auto mt-5" id="education">
         <h2 class="display-3 text-center">What I'm currently learning</h2>
 
       <div class="row text-center">
-        <div class="col-sm-12 col-md-4"><img class="img-fluid stack-logo" src="./images/sqlLOGO.png" alt="mysql logo"/></div>
+        <div class="col-sm-12 col-md-4"><img class="img-fluid stack-logo" src="./images/pythonLOGO.png" alt="python logo"/></div>
         <div class="col-sm-12 col-md-4"><p class="fs-4">Various short courses via <a class=" link-light link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover" href="https://www.codecademy.com" target="blank">Codecademy</a>, <a class=" link-light link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover" href="https://codefirstgirls.com/" target="blank">Code First Girls</a> and <a class=" link-light link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover" href="https://www.udemy.com/" target="blank">Udemy</a> on web development. <br><br>
-            Currently focusing on MySql and React</p>
+            Currently focusing on Python and Typescript</p>
         </div>
-        <div class="col-sm-12 col-md-4"><img class="img-fluid stack-logo" src="./images/reactLOGO.png" alt="react logo"/></div>
+        <div class="col-sm-12 col-md-4"><img class="img-fluid stack-logo" src="./images/typescriptLOGO.png" alt="typescript logo"/></div>
       </div>
       </div>
       <!--Projects-->
-      <h2 class="display-3 text-center">Latest Projects</h2>
+      <div id="projects" class="pt-5">
+      <h2 class="display-3 text-center pt-5">Latest Projects</h2>
 
       <div class="row text-block mx-auto mt-2">
+
+        <div class="card col-sm-12 col-md-4 p-1 mx-auto m-2" style="background-color: black;" >
+          <img src="./images/CFGcodingconundrumsPreview.png" class="card-img-top" alt="Preview image of coding conundrums site">
+      <div class="card-body" style="background-color:#442063;">
+        <h5 class="card-title" style="background-color:#442063; color:white">CFG intro to coding challenge: Coding conundrums</h5>
+        <p class="card-text">This challenge consisted of 5 coding conundrums;</p>
+          <ul style="color:white;">
+            <li>Should we round up the grade</li>
+            <li>Sorting an array</li>
+            <li>Search a number in a sorted Matrix</li>
+            <li>Find factorial of n</li>
+            <li>Hiding credit card details</li>
+            </ul>
+          <p>I decided for each challenge I was not only going to create an individual website with solutions to the problems but with real-world examples of those problems and solutions.</p>
+        <a href="https://kelh83.github.io/CFGcodingConundrums/" target="blank" class="btn btn-dark visit">Visit site</a>
+      </div>
+    </div>
             <div class="card col-sm-12 col-md-4 p-1 mx-auto m-2" style="background-color: black;" >
                 <img src="./images/COL1.png" class="card-img-top" alt="Preview image of cost of living helper site">
             <div class="card-body" style="background-color:#442063;">
@@ -104,26 +158,28 @@
             </div>
           </div>
 
-            <div class="card col-sm-12 col-md-4 p-1 mx-auto m-2" style="background-color: black;">
-                <img src="./images/cfgrestaurant.png" class="card-img-top" alt="Preview image of restaurant site">
-                <div class="card-body" style="background-color:#442063;">
-                  <h5 class="card-title" style="background-color:#442063;color:white;">CFG javascript course: Restaurant</h5>
-                  <p class="card-text">As part of the course we were placed into groups based on our preferred topic, our group topic was food. 
-                    Between us we decided to create a deliveroo style app, we started out by creating our own individual restaurant pages with the 
-                    view of adding them to the delivery app. <br><br>
-                    My restaurant allows the user to add and remove items from cart, it calculates the total and if they spend a certian amount they 
-                    receive a free fruit platter and free delivery.
-                
-                </p>
-                  <a href="https://kelh83.github.io/CrunchyFriedGreens/" target="blank" class="btn btn-dark visit">Visit site</a>
-                </div>
-              </div>   
+               
               
              
       </div>
 
 
       <div class="row text-block mx-auto">
+
+        <div class="card col-sm-12 col-md-4 p-1 mx-auto m-2" style="background-color: black;">
+          <img src="./images/cfgrestaurant.png" class="card-img-top" alt="Preview image of restaurant site">
+          <div class="card-body" style="background-color:#442063;">
+            <h5 class="card-title" style="background-color:#442063;color:white;">CFG javascript course: Restaurant</h5>
+            <p class="card-text">As part of the course we were placed into groups based on our preferred topic, our group topic was food. 
+              Between us we decided to create a deliveroo style app, we started out by creating our own individual restaurant pages with the 
+              view of adding them to the delivery app. <br><br>
+              My restaurant allows the user to add and remove items from cart, it calculates the total and if they spend a certian amount they 
+              receive a free fruit platter and free delivery.
+          
+          </p>
+            <a href="https://kelh83.github.io/CrunchyFriedGreens/" target="blank" class="btn btn-dark visit">Visit site</a>
+          </div>
+        </div>
         
          <div class="card col-sm-12 col-md-4 p-1 mx-auto m-2" style="background-color: black;" >
                 <img src="./images/ringpreview.png" class="card-img-top" alt="Preview image of gaming site">
@@ -139,21 +195,23 @@
             </div>
           </div>
 
-        <div class="card col-sm-12 col-md-4 p-1 mx-auto m-2" style="background-color: black;">
-            <img src="./images/globalspeakpreview.png" class="card-img-top" alt="Preview image of teaching site">
-            <div class="card-body" style="background-color:#442063;">
-              <h5 class="card-title" style="background-color:#442063;color:white;">CFG javascript course: Teaching</h5>
-              <p class="card-text">As I finished my restaurant site quite quickly I also took the opportunity to create some additional sites for 
-                some of the other available topics.<br><br>
-                My teaching site takes a basic phrase "Hello, my name is...do you speak English?" and teaches you how to say that in 6 different 
-                languages.            
-            </p>
-              <a href="https://kelh83.github.io/globalspeak/" target="blank" class="btn btn-dark visit">Visit site</a>
-            </div>
-          </div>   
+          
     </div>     
 
     <div class="row text-block mx-auto">
+      <div class="card col-sm-12 col-md-4 p-1 mx-auto m-2" style="background-color: black;">
+        <img src="./images/globalspeakpreview.png" class="card-img-top" alt="Preview image of teaching site">
+        <div class="card-body" style="background-color:#442063;">
+          <h5 class="card-title" style="background-color:#442063;color:white;">CFG javascript course: Teaching</h5>
+          <p class="card-text">As I finished my restaurant site quite quickly I also took the opportunity to create some additional sites for 
+            some of the other available topics.<br><br>
+            My teaching site takes a basic phrase "Hello, my name is...do you speak English?" and teaches you how to say that in 6 different 
+            languages.            
+        </p>
+          <a href="https://kelh83.github.io/globalspeak/" target="blank" class="btn btn-dark visit">Visit site</a>
+        </div>
+      </div> 
+
     <div class="card col-sm-12 col-md-4 p-1 mx-auto m-2" style="background-color: black;" >
         <img src="./images/siivu.png" class="card-img-top" alt="Preview image of holiday resort site">
     <div class="card-body" style="background-color:#442063;">
@@ -163,8 +221,10 @@
       <a href="https://kelh83.github.io/siivu-resort/" target="blank" class="btn btn-dark visit">Visit site</a>
     </div>
   </div>
-
-    <div class="card col-sm-12 col-md-4 p-1 mx-auto m-2" style="background-color: black;">
+    </div>
+    
+    <div class="row text-block mx-auto">
+      <div class="card col-sm-12 col-md-4 p-1 mx-auto m-2" style="background-color: black;">
         <img src="./images/tindogpreview.png" class="card-img-top" alt="Preview image of Tindog site">
         <div class="card-body" style="background-color:#442063;">
           <h5 class="card-title" style="background-color:#442063;color:white;">Udemy course: Tinder for dogs</h5>
@@ -175,6 +235,8 @@
           <a href="https://kelh83.github.io/tindog/" target="blank" class="btn btn-dark visit">Visit site</a>
         </div>
       </div>  
+    </div>
+    </div>
       <!--footer-->
         <p class="fs-4 mt-5 text-center mx-auto">© Copyright K.Howes <span id="year"></span></p>
     
