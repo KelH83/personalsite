@@ -38,6 +38,10 @@ video {
   .navbar{
     font-size: 1.2em;
   }
+
+  .carouselExample{
+    z-index: 1;
+  }
   
  
   
@@ -113,7 +117,7 @@ border-radius: 15px;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 2;
   background-color: #442063;
 }
 
@@ -126,16 +130,16 @@ border-radius: 15px;
 .purple{
   background-color: #6d359e;
   color: white;
-  z-index: 1;
+  z-index: 3;
 }
 
 .navbar-sticky{
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 4;
 }
 
 .footer{
-  z-index: 1;
+  z-index: 3;
 }
