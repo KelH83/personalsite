@@ -26,14 +26,26 @@
       </header>
 
           <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-sticky purple">
+        <nav class="navbar navbar-expand-lg navbar-sticky purple mb-3">
           <div class="container-fluid purple">
-            <a class="navbar-brand" href="#"><img class="img-fluid connect-logo" src="./images/myphoto.jpg" alt="photo of me"/></a>
+            <!-- <a class="navbar-brand" href="#"><img class="img-fluid connect-logo" src="./images/myphoto.jpg" alt="photo of me"/></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link purple mx-4" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link purple mx-4" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link purple mx-4" href="#stack">Stack</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link purple mx-4" href="#projects">Projects</a>
+                </li>                
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle purple" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Let's Connect
@@ -44,30 +56,9 @@
                     <li><a class="dropdown-item purple" href="mailto:kellyhowes83@gmail.com"><img class="img-fluid connect-logo" src="./images/emailLOGO.png" alt="email symbol"/> Email</a></li>
                   </ul>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link purple m" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link purple" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link purple" href="#stack">Stack</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link purple" href="#education">Education</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link purple" href="#projects">Projects</a>
-                </li>                
               </ul>
             </div>
-               <!--Weather widget-->
-            <div class="container">
-                <a class="weatherwidget-io" href="https://forecast7.com/en/52d210d12/cambridge/" data-label_1="Cambridge" data-label_2="Weather" data-days="3" >Cambridge Weather</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
-               </div>
+              
           </div>          
         </nav>
 
@@ -75,10 +66,17 @@
       <div class="text-block bg-dark bg-opacity-75 mx-auto" id="about">
         
         <h2 class="display-3 text-center">About Me</h2>
-        <p class="fs-4">I have a strong ambition to make the switch to tech and as well as having a proactive approach to acquiring new skills and knowledge I am motivated by a passion for innovation and problem-solving. I have a curious mindset, a willingness to learn, adaptability, and the ability to embrace challenges as opportunities for growth. So far I have learned HTML, CSS, Javascript, Bootstrap, GIT and Github. I have touched upon JQuery, Python, SQL, Node and React. I am continuously improving and adding to my skill base via online courses and coding challenges.
-          <br><br>I have been very fortunate to place in the final 3 in some of the code first girls challenges both of these utilising some of my strengths, namely creativity, thinking outside of the box and my ability to hyperfocus for extended periods.
-          <br><br>My previous roles gave me valuable creative experience that has enabled me to create visually appealing projects. My time-management skills and previous leadership roles have enabled me to keep my team(s) on track during challenges and classes. I’m very much a helper and researcher, whenever someone asks a question I will come up with a detailed data-driven answer whether that’s as in the past “What new class would be the most profitable for the school” to more recently “Why is mediation for Education Health and Care Plans virtually impossible to access?”.</p>
-       
+        <p class="fs-4">
+          As I embark on transitioning into the tech industry, I bring a diverse skill set spanning HTML, CSS, JavaScript, React, React Native, Node.js, PostgreSQL, Firebase, Git, GitHub, Bootstrap, Jest, Express.js, Axios, Expo, Vite, Wave, and API development. With a lifelong passion for technology and web design deeply ingrained in my upbringing, I am eager to pursue my first role in the tech world.
+          <br><br>
+        From an early age, I shared a bond with technology, helping my dad build desktop computers and delving into the intricacies of hardware and software. This early exposure ignited a fervent interest in problem-solving and innovation, laying the foundation for my lifelong interest in tech and software development.
+        <br><br>
+        Proficient in frontend technologies such as HTML, CSS, and JavaScript, I possess hands-on experience crafting intuitive user interfaces and dynamic web applications using React as well as mobile applications using React Native and Expo. With a solid understanding of backend development, I excel in leveraging Node.js and Express.js to build robust APIs, enabling seamless communication between frontend and backend systems.
+        <br><br>
+        Additionally, I ensure efficient data storage and retrieval mechanisms using PostgreSQL, as well as experience using Firebase as a database, authentication and storage facility. My knowledge in version control with Git and GitHub enables effective collaboration within Agile methodologies, delivering high-quality software products.
+        <br><br>
+        Utilizing Bootstrap for responsive design, Jest for comprehensive unit testing, and Axios for handling HTTP requests, I prioritize code integrity and optimal performance in my projects. My dedication to accessibility is evident in my utilization of Wave,Axe and Lighthouse for building inclusive web applications.
+        </p>
         <hr>
         <p class="fs-4">I'm a disability advocate, I myself am disabled (neurodiverse) and so is my daughter and many family members. Creating a better world for 
             the next generation of neurodiverse people is something I feel strongly about. I volunteer for a local charity, helping parents navigate 
@@ -90,13 +88,6 @@
         <p class="fs-4">I'm also a frequent research participant, helping medical professionals understand more about neurodiversity and enabling them to create 
             better screening tools/assessments and offer better levels of help. 
         </p>
-        <hr>
-        <p class="fs-4">I love to game, if I'm not coding then I'm gaming, I love all types of games from Gears of war and Halo to Mario and the Sims.
-        </p>
-        
-        <p class="fs-4">I love animals and currently have 2 dogs, 2 cats and 2 snakes. Dog walking is great exercise but I always seem to have my aha moments then, 
-            stuck on a tricky bit of code, 9 times out of 10 the solution usually comes to me when I'm 2 miles from the house and can't test it out!
-        </p>
       </div>
 
       <!--Stack-->
@@ -105,142 +96,138 @@
         <div class="row text-center mt-2">        
             <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/htmlLOGO.png" alt="html logo"/></div>
             <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/cssLOGO.png" alt="css logo"/></div>
-            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/javLOGO.png" alt="javascript logo"/></div>
-            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/bootStrap.png" alt="bootstrap logo"/></div>
+            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/javascript_logo.png" alt="javascript logo"/></div>
+            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/React-icon.svg.png" alt="react logo"/></div>
         </div>
         <div class="row text-center mt-2">
-            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/PostgresqlLOGO.png" alt="postgreSQL logo"/></div>
-            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/gitLOGO.png" alt="git logo"/></div>
+          <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/NodeNEW.png" alt="node logo"/></div>
+          <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/PostgresqlLOGO.png" alt="postgreSQL logo"/></div>
+            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/ExpressNEW.png" alt="express logo"></div>
+            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/FirebaseNEW.png" alt="firebase logo"/></div>
+        </div>
+        <div class="row text-center mt-2">
+          <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/gitLOGO.png" alt="git logo"/></div>
             <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/githubLOGO.png" alt="github logo"/></div>
-            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/vsLOGO.png" alt="visual studio logo"/></div>
+            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/BootstrapNEW.png" alt="bootstrap logo"/></div>
+            <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/JestNEW.png" alt="jest logo"/></div>
         </div>
+        <div class="row text-center mt-2">
+          <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/viteLogo.png" alt="vite logo"/></div>
+          <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/wavelogo2.svg" alt="wave logo"/></div>
+          <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/AxiosNEW.png" alt="axios logo"/></div>
+          <div class="col-sm-12 col-md-3"><img class="img-fluid stack-logo bg-light bg-opacity-25 p-3 m-2" src="./images/ExpoNEW.png" alt="expo logo"/></div>
+      </div>
       </div>
 
-      <!--Education-->
-      <div class="text-block bg-dark bg-opacity-75 mx-auto mt-5" id="education">
-        <h2 class="display-3 text-center">What I'm currently learning</h2>
-
-      <div class="row text-center">
-        <div class="col-sm-12 col-md-4"><img class="img-fluid stack-logo" src="./images/pythonLOGO.png" alt="python logo"/></div>
-        <div class="col-sm-12 col-md-4"><p class="fs-4">Various short courses via <a class=" link-light link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover" href="https://www.codecademy.com" target="blank">Codecademy</a>, <a class=" link-light link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover" href="https://codefirstgirls.com/" target="blank">Code First Girls</a> and <a class=" link-light link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover" href="https://www.udemy.com/" target="blank">Udemy</a> on web development. <br><br>
-            Currently focusing on Python and Typescript</p>
-        </div>
-        <div class="col-sm-12 col-md-4"><img class="img-fluid stack-logo" src="./images/typescriptLOGO.png" alt="typescript logo"/></div>
-      </div>
-      </div>
-      <!--Projects-->
       <div id="projects" class="pt-5">
-      <h2 class="display-3 text-center pt-5">Latest Projects</h2>
+      <h2 class="display-3 text-center pt-5">Latest Projects</h2> 
 
-      <div class="row text-block mx-auto mt-2">
-
-        <div class="card col-sm-12 col-md-4 p-1 mx-auto m-2" style="background-color: black;" >
-          <img src="./images/CFGcodingconundrumsPreview.png" class="card-img-top" alt="Preview image of coding conundrums site">
-      <div class="card-body" style="background-color:#442063;">
-        <h5 class="card-title" style="background-color:#442063; color:white">CFG intro to coding challenge: Coding conundrums</h5>
-        <p class="card-text">This challenge consisted of 5 coding conundrums;</p>
-          <ul style="color:white;">
-            <li>Should we round up the grade</li>
-            <li>Sorting an array</li>
-            <li>Search a number in a sorted Matrix</li>
-            <li>Find factorial of n</li>
-            <li>Hiding credit card details</li>
-            </ul>
-          <p>I decided for each challenge I was not only going to create an individual website with solutions to the problems but with real-world examples of those problems and solutions.</p>
-        <a href="https://kelh83.github.io/CFGcodingConundrums/" target="blank" class="btn btn-dark visit">Visit site</a>
+    <!-- CArousel -->
+    <div id="carouselExample" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card col-sm-12 col-md-8 p-1 mx-auto m-2" style="background-color: black;" >
+            <img src="./images/TraveLogNEWpreview.png" class="card-img-top" alt="Preview image of coding conundrums site">
+        <div class="card-body" style="background-color:#442063;">
+          <h5 class="card-title" style="background-color:#442063; color:white">Northcoders full-stack group project</h5>
+          <p class="card-text">Travelog is a nifty travel companion for jotting down memories and keeping a personal journal of your travels. This was created as part of the Northcoders software engineering course final project phase.
+          </p>
+          <p>Features include:</p>
+            <ul style="color:white;">
+              <li>User Authentication:Sign up and log in to your Travelog account.</li>
+              <li>User Profile: Once logged in they can change their display name, email address and profile photo(either from their phone storage or take a new photo using the phone's camera)</li>
+              <li>Home screen: Users can interact with a map that will display pins of all of their previous journal entries which are also clickable links to that entry. They will also see a list of all of the countries they have been to which are clickable and will take them to a list of all of the entries available for that country.</li>
+              <li>Journal Entries: Users can see an individual entry to read the journal for the day and see any associated images</li>
+              <li>Journal Upload: Users can upload a new entry including rating what they did/saw that day, add an image(from phone storage or take a new photo) and current location using the map function</li>
+              <li>Friends list: Users can see a list of friends they have added on the app</li>
+              </ul>
+          <a href="https://github.com/Koalaphant/TravelJournal" target="blank" class="btn btn-dark visit">Visit repo</a>
+        </div>
       </div>
-    </div>
-            <div class="card col-sm-12 col-md-4 p-1 mx-auto m-2" style="background-color: black;" >
-                <img src="./images/COL1.png" class="card-img-top" alt="Preview image of cost of living helper site">
+        </div>
+        <div class="carousel-item">
+          <div class="card col-sm-12 col-md-8 p-1 mx-auto m-2" style="background-color: black;" >
+            <img src="./images/NcnewsNEWpreview.png" class="card-img-top" alt="Preview image of coding conundrums site">
+        <div class="card-body" style="background-color:#442063;">
+          <h5 class="card-title" style="background-color:#442063; color:white">Northcoders full-stack solo project</h5>
+          <p class="card-text">Northcoders news - A mock news website that allows users to browse news articles, view individual articles, vote on articles, post comments, delete comments, and vote on those comments as well as upload their own articles.
+          </p>
+          <p>Features include:</p>
+            <ul style="color:white;">
+              <li>News Article Retrieval: The app fetches news articles from the API.</li>
+              <li>View Single Article: Users can view a detailed page for each news article.</li>
+              <li>Article Voting: Users can vote on articles to express their opinions.</li>
+              <li>Commenting System: Users can post comments on articles and delete a comment they made</li>
+              <li>Comment Voting: Users can vote on comments posted by other users.</li>
+              <li>Filtering by Topic: Users can filter articles by topic.</li>
+              <li>Sorting: Articles can be sorted by date, comments, or votes.</li>
+              <li>Upload Article: Users can upload an article including an image</li>
+              </ul>
+          <a href="https://northcoders-news-kh.netlify.app/" target="blank" class="btn btn-dark visit">Visit site</a>
+        </div>
+      </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card col-sm-12 col-md-8 p-1 mx-auto m-2" style="background-color: black;" >
+            <img src="./images/CFGcodingconundrumsPreview.png" class="card-img-top" alt="Preview image of coding conundrums site">
+        <div class="card-body" style="background-color:#442063;">
+          <h5 class="card-title" style="background-color:#442063; color:white">CFG intro to coding challenge: Coding conundrums</h5>
+          <p class="card-text">This challenge consisted of 5 coding conundrums;</p>
+            <ul style="color:white;">
+              <li>Should we round up the grade</li>
+              <li>Sorting an array</li>
+              <li>Search a number in a sorted Matrix</li>
+              <li>Find factorial of n</li>
+              <li>Hiding credit card details</li>
+              </ul>
+            <p>I decided for each challenge I was not only going to create an individual website with solutions to the problems but with real-world examples of those problems and solutions.</p>
+          <a href="https://kelh83.github.io/CFGcodingConundrums/" target="blank" class="btn btn-dark visit">Visit site</a>
+        </div>   
+        </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card col-sm-12 col-md-8 p-1 mx-auto m-2" style="background-color: black;" >
+            <img src="./images/COL1.png" class="card-img-top" alt="Preview image of cost of living helper site">
+        <div class="card-body" style="background-color:#442063;">
+          <h5 class="card-title" style="background-color:#442063; color:white">CFG javascript challenge: Cost of living crisis</h5>
+          <p class="card-text">The Intro to Javascript challenge with Code First Girls was a 4-week challenge aiming to help people through the
+             cost of living crisis.<br><br>
+             I had a few initial ideas for this project including a budgeting calculator, help for pets, utilities 
+             comparison, the ideas just kept coming so I decided to create a multi-page website.</p>
+          <a href="https://kelh83.github.io/CostOfLiving/" target="blank" class="btn btn-dark visit">Visit site</a>
+        </div>
+      </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card col-sm-12 col-md-8 p-1 mx-auto m-2" style="background-color: black;">
+            <img src="./images/cfgrestaurant.png" class="card-img-top" alt="Preview image of restaurant site">
             <div class="card-body" style="background-color:#442063;">
-              <h5 class="card-title" style="background-color:#442063; color:white">CFG javascript challenge: Cost of living crisis</h5>
-              <p class="card-text">The Intro to Javascript challenge with Code First Girls was a 4-week challenge aiming to help people through the
-                 cost of living crisis.<br><br>
-                 I had a few initial ideas for this project including a budgeting calculator, help for pets, utilities 
-                 comparison, the ideas just kept coming so I decided to create a multi-page website.</p>
-              <a href="https://kelh83.github.io/CostOfLiving/" target="blank" class="btn btn-dark visit">Visit site</a>
+              <h5 class="card-title" style="background-color:#442063;color:white;">CFG javascript course: Restaurant</h5>
+              <p class="card-text">As part of the course we were placed into groups based on our preferred topic, our group topic was food. 
+                Between us we decided to create a deliveroo style app, we started out by creating our own individual restaurant pages with the 
+                view of adding them to the delivery app. <br><br>
+                My restaurant allows the user to add and remove items from cart, it calculates the total and if they spend a certian amount they 
+                receive a free fruit platter and free delivery.
+            
+            </p>
+              <a href="https://kelh83.github.io/CrunchyFriedGreens/" target="blank" class="btn btn-dark visit">Visit site</a>
             </div>
           </div>
-
-               
-              
-             
+        </div>
       </div>
-
-
-      <div class="row text-block mx-auto">
-
-        <div class="card col-sm-12 col-md-4 p-1 mx-auto m-2" style="background-color: black;">
-          <img src="./images/cfgrestaurant.png" class="card-img-top" alt="Preview image of restaurant site">
-          <div class="card-body" style="background-color:#442063;">
-            <h5 class="card-title" style="background-color:#442063;color:white;">CFG javascript course: Restaurant</h5>
-            <p class="card-text">As part of the course we were placed into groups based on our preferred topic, our group topic was food. 
-              Between us we decided to create a deliveroo style app, we started out by creating our own individual restaurant pages with the 
-              view of adding them to the delivery app. <br><br>
-              My restaurant allows the user to add and remove items from cart, it calculates the total and if they spend a certian amount they 
-              receive a free fruit platter and free delivery.
-          
-          </p>
-            <a href="https://kelh83.github.io/CrunchyFriedGreens/" target="blank" class="btn btn-dark visit">Visit site</a>
-          </div>
-        </div>
-        
-         <div class="card col-sm-12 col-md-4 p-1 mx-auto m-2" style="background-color: black;" >
-                <img src="./images/ringpreview.png" class="card-img-top" alt="Preview image of gaming site">
-            <div class="card-body" style="background-color:#442063;">
-              <h5 class="card-title" style="background-color:#442063; color:white">CFG javascript course: Gaming</h5>
-              <p class="card-text">As I finished my restaurant site quite quickly I also took the opportunity to create some additional sites for 
-                some of the other available topics.<br><br>
-                My gaming site is based on the popular game show "wheel of fortune".
-                If I'd had more time I would have created an array of phrases with one randomly selected to guess and made it multiplayer like the 
-                actual show but this was just a side project I worked on so I ensured it was functional whilst focusing my efforts on the groups 
-                main task.</p>
-              <a href="https://kelh83.github.io/ringOriches/" target="blank" class="btn btn-dark visit">Visit site</a>
-            </div>
-          </div>
-
-          
-    </div>     
-
-    <div class="row text-block mx-auto">
-      <div class="card col-sm-12 col-md-4 p-1 mx-auto m-2" style="background-color: black;">
-        <img src="./images/globalspeakpreview.png" class="card-img-top" alt="Preview image of teaching site">
-        <div class="card-body" style="background-color:#442063;">
-          <h5 class="card-title" style="background-color:#442063;color:white;">CFG javascript course: Teaching</h5>
-          <p class="card-text">As I finished my restaurant site quite quickly I also took the opportunity to create some additional sites for 
-            some of the other available topics.<br><br>
-            My teaching site takes a basic phrase "Hello, my name is...do you speak English?" and teaches you how to say that in 6 different 
-            languages.            
-        </p>
-          <a href="https://kelh83.github.io/globalspeak/" target="blank" class="btn btn-dark visit">Visit site</a>
-        </div>
-      </div> 
-
-    <div class="card col-sm-12 col-md-4 p-1 mx-auto m-2" style="background-color: black;" >
-        <img src="./images/siivu.png" class="card-img-top" alt="Preview image of holiday resort site">
-    <div class="card-body" style="background-color:#442063;">
-      <h5 class="card-title" style="background-color:#442063; color:white">Udemy course: Holiday resort</h5>
-      <p class="card-text">A fake resort site I created to practice my skills whilst working my way through a web development course<br><br>
-        I created this site to practice my HTML, CSS and bootstrap skills as well as using canva to create a wireframe to use as a reference.</p>
-      <a href="https://kelh83.github.io/siivu-resort/" target="blank" class="btn btn-dark visit">Visit site</a>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-  </div>
-    </div>
-    
-    <div class="row text-block mx-auto">
-      <div class="card col-sm-12 col-md-4 p-1 mx-auto m-2" style="background-color: black;">
-        <img src="./images/tindogpreview.png" class="card-img-top" alt="Preview image of Tindog site">
-        <div class="card-body" style="background-color:#442063;">
-          <h5 class="card-title" style="background-color:#442063;color:white;">Udemy course: Tinder for dogs</h5>
-          <p class="card-text">Tinder, but for dogs!!! <br><br>
-            This was a project to practice my HTML,CSS and bootstrap skills as part of the web 
-            development course on Udemy(by the wonderful Dr Angela Yu).         
-          </p>
-          <a href="https://kelh83.github.io/tindog/" target="blank" class="btn btn-dark visit">Visit site</a>
-        </div>
-      </div>  
-    </div>
-    </div>
+
+
+
+
       <!--footer-->
         <p class="fs-4 mt-5 text-center mx-auto">© Copyright K.Howes <span id="year"></span></p>
     
