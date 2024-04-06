@@ -126,6 +126,7 @@ border-radius: 15px;
 .purple{
   background-color: #6d359e;
   color: white;
+  z-index: 1;
 }
 
 .navbar-sticky{
