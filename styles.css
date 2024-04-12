@@ -34,6 +34,14 @@ video {
     font-size: 100px;
     text-align: center;
   }
+  h2{
+    font-size: 50px;
+    text-align: center;
+  }
+
+  p{
+    font-size: 20px;
+  }
 
   .navbar{
     font-size: 1.2em;
@@ -50,14 +58,24 @@ video {
 
   @media only screen and (max-width: 600px) {
     h1{
-      font-size:50px;
+      font-size:40px;
+    }
+    #sub-head{
+      margin-top: 18px;
+      font-size: 12px !important;
+    }
+    h2{
+      font-size:20px;
+    }
+    p{
+      font-size: 12px;
     }
   }
 
   #sub-head {
     font-family: 'Lora', serif;
     display: block;
-    font-size: 30px !important;
+    font-size: 30px;
     
   }
 
@@ -86,6 +104,8 @@ video {
     width: 150px;
     height: 150px;
     border-radius:15px;
+    padding: 20px;
+    margin: 5px;
  }
 
  .visit{
